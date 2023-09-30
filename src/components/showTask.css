@@ -1,0 +1,78 @@
+.showTask.container {
+  box-shadow: var(--box-shadow);
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #f0eeee;
+  padding: 20px 20px 50px;
+}
+.showTask h1 {
+  margin: 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px;
+  border-bottom: 2px solid #ececec;
+}
+.card-title {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+.card-title span {
+  font-weight: bolder;
+  font-size: 24px;
+  background-color: #cacaca;
+  padding: 4px 10px;
+  border-radius: 50%;
+}
+.card-header button {
+  background-color: green;
+  color: #fff;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+.card-content {
+  text-align: left;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.card {
+  box-shadow: var(--box-shadow);
+  padding: 10px;
+  border-left: 5px solid navy;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-size: 18px;
+  margin: 3px 0;
+  font-weight: 600;
+}
+.card-control {
+  display: flex;
+  flex-direction: column;
+}
+.card-control button {
+  margin: 2px 0;
+  border: 0;
+  cursor: pointer;
+  padding: 2px 1px;
+  color: #fff;
+}
+.btn-edit {
+  background-color: green;
+}
+.btn-delete {
+  background-color: rgb(206, 13, 13);
+}
